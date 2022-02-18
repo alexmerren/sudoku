@@ -1,0 +1,6 @@
+[submodule "sudoku-golang-backend"]
+	path = sudoku-golang-backend
+	url = git@github.com:alexmerren/sudoku-golang-backend.git
+[submodule "sudoku-react-frontend"]
+	path = sudoku-react-frontend
+	url = git@github.com:alexmerren/sudoku-react-frontend.git
