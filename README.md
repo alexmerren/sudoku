@@ -29,7 +29,7 @@ git clone git@github.com:alexmerren/sudoku.git
 git clone https://github.com/alexmerren/sudoku.git
 
 # Go into the project directory to start the service
-cd sudoku/sudoku-golang-backend
+cd sudoku
 
 # Run the makefile to start both the back and front-end services
 make build-backend && make run-all
