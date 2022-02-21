@@ -1,21 +1,36 @@
 # Sudoku 
 
-A playable sudoku web application, that features custom puzzle generation and solving algorithms.
+A playable sudoku application, including custom puzzle solving and generation algorithms. 
 
-## Contents
+Contents
+--------------------
 
  * [Requirements](#requirements)
  * [Usage](#usage)
 
-## Requirements
+Requirements
+--------------------
 
-In order to run this application, you will need a couple things:
- * Golang 1.16+
- * React Something something
- * Docker
+This application will require quite a few dependencies to run, such as:
+ * [Git](http://git-scm.com/): [This guide](https://docs.github.com/en/get-started/quickstart/set-up-git) is a good way to start.
+ * [Node.js](https://nodejs.org/en/): Node is used to run the ReactJS front-end of the application.
+ * [npm](https://www.npmjs.com/package/latest-version): npm is used as a package manager of node.
+ * [Golang](https://go.dev/dl/): Golang is used to run the back-end of our application.
+ * [Docker](https://docs.docker.com/get-docker/): Docker is used to containerise our application.
 
-## Usage
+Usage
+--------------------
 
-This sudoku applicaiton contains two components: A backend and a frontend.
+```shell
+# Clone the repository over SSH
+git clone git@github.com:alexmerren/sudoku.git
 
-Both of these components will have to be run in tandem for the application to work properly.
+# OR, clone the repository over HTTPS
+git clone https://github.com/alexmerren/sudoku.git
+
+# Go into the project directory to start the service
+cd sudoku/sudoku-golang-backend
+
+# Run the makefile to start both the back and front-end services
+make build-backend && make run-all
+```
